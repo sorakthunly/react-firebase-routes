@@ -1,36 +1,59 @@
 {
-  "name": "react-firebase-routes",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@types/jest": "24.0.18",
-    "@types/node": "12.7.3",
-    "@types/react": "16.9.2",
-    "@types/react-dom": "16.9.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1",
-    "typescript": "3.6.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "react-firebase-routes",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@types/jest": "24.0.18",
+		"@types/node": "12.7.3",
+		"@types/react": "16.9.2",
+		"@types/react-dom": "16.9.0",
+		"bootstrap": "^4.3.1",
+		"react": "^16.9.0",
+		"react-bootstrap": "^1.0.0-beta.12",
+		"react-dom": "^16.9.0",
+		"react-redux": "^7.1.1",
+		"react-router-dom": "^5.0.1",
+		"react-scripts": "3.1.1",
+		"redux": "^4.0.4",
+		"redux-thunk": "^2.3.0",
+		"styled-components": "^4.3.2",
+		"typescript": "3.6.2"
+	},
+	"devDependencies": {
+		"@types/bootstrap": "^4.3.1",
+		"@types/react-bootstrap": "^0.32.19",
+		"@types/react-redux": "^7.1.2",
+		"@types/react-router-dom": "^4.3.5",
+		"@types/styled-components": "^4.1.18",
+		"@typescript-eslint/eslint-plugin": "^2.0.0",
+		"@typescript-eslint/parser": "^2.0.0",
+		"eslint": "^6.3.0",
+		"eslint-config-prettier": "^6.1.0",
+		"eslint-config-react": "^1.1.7",
+		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-plugin-react": "^7.14.3",
+		"prettier": "^1.18.2"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"lint:fix": "eslint --fix './src/**/*.{ts,tsx}'"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }
