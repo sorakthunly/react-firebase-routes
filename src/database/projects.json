@@ -1,0 +1,17 @@
+[
+	{
+		"id": 123,
+		"name": "Evenue Frontend",
+		"description": "1.0"
+	},
+	{
+		"id": 125,
+		"name": "Evenue Backend",
+		"description": "1.0"
+	},
+	{
+		"id": 144,
+		"name": "Evenue Socket",
+		"description": "1.0"
+	}
+]

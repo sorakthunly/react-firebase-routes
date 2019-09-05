@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
 import './App.css';
-import AuthorisedRoute from './components/authentication/AuthorisedRoute';
+import AuthorisedRoute from './components/authentication/AuthorisedRoute/AuthorisedRoute';
 import LoginPage from './features/authentication/LoginPage';
 import ProjectsLayout from './features/projects/ProjectsLayout';
 import SignupPage from './features/authentication/SignupPage';
